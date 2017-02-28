@@ -8,12 +8,12 @@
 今天刚好有有反编译apk这个需求，但在github上搜了下，这种一键式的项目几乎都是for windows的
 ，作为常年使用linux系统的我当然不能忍，于是写了几行sh命令自己做了一个。
 
-####使用方法
+#### 使用方法
 
 把apk文件放入apks文件夹（目前只能放一个），然后运行`./onekey-decompiler.sh`,反编译结果在
 decompiler-result文件夹体现
 
-####可能的一些坑
+#### 可能的一些坑
 如果因为权限问题报错就提权限
 ```
 chmod +x XXX.sh
